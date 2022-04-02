@@ -11,7 +11,7 @@
       "id": "Mythical-1.18.2",
       "name": "Mythical (Minecraft 1.18.2)",
       "description": "Mythical Running Minecraft 1.18.2 (Forge v40.0.36)",
-      "icon": null,
+      "icon": "https://theopierne.github.io/launcher/servers/Mythical-1.18.2/files/icon.png",
       "version": "1.0.0",
       "address": "waiit.aternos.me:37885",
       "minecraftVersion": "1.18.2",
