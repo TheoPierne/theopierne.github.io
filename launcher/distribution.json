@@ -2,9 +2,9 @@
   "version": "1.0.0",
   "rss": "<LINK TO RSS FEED>",
   "discord": {
-    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
-    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
-    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+    "clientId": "949407481396875264",
+    "smallImageText": "Mythical S3",
+    "smallImageKey": "small_image"
   },
   "servers": [
     {
@@ -13,12 +13,12 @@
       "description": "Mythical Running Minecraft 1.18.2 (Forge v40.0.36)",
       "icon": null,
       "version": "1.0.0",
-      "address": "localhost:25565",
+      "address": "waiit.aternos.me",
       "minecraftVersion": "1.18.2",
       "discord": {
-        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
-        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
-        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+        "shortId": "Mythical S3 1.18.2",
+        "largeImageText": "Mythical Saison 3 1.18.2",
+        "largeImageKey": "server"
       },
       "mainServer": true,
       "autoconnect": false,
