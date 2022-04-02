@@ -1,1 +1,1 @@
-# mythical.github.io
+# Mythical Launcher data
