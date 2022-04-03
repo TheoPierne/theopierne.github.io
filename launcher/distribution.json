@@ -345,7 +345,7 @@
       "id": "Test1-1.17.1",
       "name": "Test1 (Minecraft 1.17.1)",
       "description": "Test1 Running Minecraft 1.17.1 (Forge v37.1.1)",
-      "icon": null,
+      "icon": "https://theopierne.github.io/launcher/servers/Test1-1.17.1/icon.png",
       "version": "1.0.0",
       "address": "localhost:25565",
       "minecraftVersion": "1.17.1",
@@ -383,7 +383,7 @@
               "type": "Library",
               "artifact": {
                 "size": 4259465,
-                "MD5": "6133530ffa94699db7bf385af5a16041",
+                "MD5": "20d19f7f349334979003898409d6d8fe",
                 "url": "https://theopierne.github.io/launcher/repo/lib/net/minecraftforge/forge/1.17.1-37.1.1/forge-1.17.1-37.1.1-client.jar"
               },
               "subModules": []
@@ -393,8 +393,8 @@
               "name": "Minecraft Forge (client srg)",
               "type": "Library",
               "artifact": {
-                "size": 15648069,
-                "MD5": "030e67d33437686f5756575994b058f5",
+                "size": 15745893,
+                "MD5": "e777e3835d41824ff178483eefa80416",
                 "url": "https://theopierne.github.io/launcher/repo/lib/net/minecraft/client/1.17.1-20210706.113038/client-1.17.1-20210706.113038-srg.jar"
               },
               "subModules": []
