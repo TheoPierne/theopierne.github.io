@@ -361,6 +361,17 @@
               }
             }
           ]
+        },
+        {
+          "id": "servers.dat",
+          "name": "servers.dat",
+          "type": "File",
+          "artifact": {
+            "size": 9754,
+            "url": "https://raw.githubusercontent.com/TheoPierne/theopierne.github.io/main/launcher/servers/Mythical-1.18.2/files/servers.dat",
+            "MD5": "ed99e13f6d3e2d9ffa49498496c68777",
+            "path": "servers.dat"
+          }
         }
       ]
     }
