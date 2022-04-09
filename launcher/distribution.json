@@ -363,6 +363,16 @@
           ]
         },
         {
+          "id": "de.maxhenkel:voicechat:1.18.2-2.2.32@jar",
+          "name": "Simple Voice Chat",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5265333,
+            "url": "https://raw.githubusercontent.com/TheoPierne/theopierne.github.io/main/launcher/servers/Mythical-1.18.2/forgemods/required/voicechat-forge-1.18.2-2.2.32.jar",
+            "MD5": "2994a6e0bfa19c1a909869412d531b0c"
+          }
+        },
+        {
           "id": "servers.dat",
           "name": "servers.dat",
           "type": "File",
