@@ -363,13 +363,13 @@
           ]
         },
         {
-          "id": "com.seibel:lod:1.6.2a@jar",
+          "id": "com.seibel:lod:1.6.3a-dev@jar",
           "name": "Distant Horizons",
           "type": "ForgeMod",
           "artifact": {
-            "size": 2237463,
-            "url": "https://raw.githubusercontent.com/TheoPierne/theopierne.github.io/main/launcher/servers/Mythical-1.18.2/forgemods/optionaloff/DistantHorizons-1.6.2a-1.18.1.jar",
-            "MD5": "e6849e159686c42cc62f43cf4eeb4500"
+            "size": 2605206,
+            "url": "https://raw.githubusercontent.com/TheoPierne/theopierne.github.io/main/launcher/servers/Mythical-1.18.2/forgemods/optionaloff/DistantHorizons-1.6.3a-dev-1.18.2-2022_04_18_16_27.jar",
+            "MD5": "115ff43abd9b8f9b2f1fe595fc9ee7b6"
           },
           "required": {
             "value": false,
