@@ -3,7 +3,7 @@
   "meta": {
     "version": "1.0.0",
     "name": "Mythical (Minecraft 1.18.2)",
-    "description": "Mythical Running Minecraft 1.18.2 (Forge v40.0.36)",
+    "description": "Mythical Running Minecraft 1.18.2 (Forge v40.1.0)",
     "address": "waiit.aternos.me:37885",
     "discord": {
       "shortId": "Mythical S3 (1.18.2)",
@@ -14,7 +14,7 @@
     "autoconnect": false
   },
   "forge": {
-    "version": "40.0.36"
+    "version": "40.1.0"
   },
   "untrackedFiles": []
 }

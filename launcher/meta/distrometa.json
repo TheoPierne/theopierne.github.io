@@ -1,7 +1,7 @@
 {
   "$schema": "file:///C:/Users/theop/Desktop/Mythical/LauncherData/launcher/schemas/DistroMetaSchema.schema.json",
   "meta": {
-    "rss": "https://theopierne.github.io/index.rss",
+    "rss": "https://theopierne.github.io/launcher/index.rss",
     "discord": {
       "clientId": "949407481396875264",
       "smallImageText": "Mythical S3",

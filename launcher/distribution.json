@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "rss": "https://theopierne.github.io/index.rss",
+  "rss": "https://theopierne.github.io/launcher/index.rss",
   "discord": {
     "clientId": "949407481396875264",
     "smallImageText": "Mythical S3",
@@ -10,7 +10,7 @@
     {
       "id": "Mythical-1.18.2",
       "name": "Mythical (Minecraft 1.18.2)",
-      "description": "Mythical Running Minecraft 1.18.2 (Forge v40.0.36)",
+      "description": "Mythical Running Minecraft 1.18.2 (Forge v40.1.0)",
       "icon": "https://raw.githubusercontent.com/TheoPierne/theopierne.github.io/main/launcher/servers/Mythical-1.18.2/icon.png",
       "version": "1.0.0",
       "address": "waiit.aternos.me:37885",
@@ -24,99 +24,99 @@
       "autoconnect": false,
       "modules": [
         {
-          "id": "net.minecraftforge:fmlcore:1.18.2-40.0.36",
+          "id": "net.minecraftforge:fmlcore:1.18.2-40.1.0",
           "name": "Minecraft Forge (fmlcore)",
           "type": "ForgeHosted",
           "artifact": {
-            "size": 109704,
-            "MD5": "982c4c29060e1b07136d426df273fc9e",
-            "url": "https://raw.githubusercontent.com/TheoPierne/theopierne.github.io/main/launcher/repo/lib/net/minecraftforge/fmlcore/1.18.2-40.0.36/fmlcore-1.18.2-40.0.36.jar"
+            "size": 109649,
+            "MD5": "08965f2ee9b58ed41f854e5c8dc1518e",
+            "url": "https://raw.githubusercontent.com/TheoPierne/theopierne.github.io/main/launcher/repo/lib/net/minecraftforge/fmlcore/1.18.2-40.1.0/fmlcore-1.18.2-40.1.0.jar"
           },
           "subModules": [
             {
-              "id": "1.18.2-40.0.36",
+              "id": "1.18.2-40.1.0",
               "name": "Minecraft Forge (version.json)",
               "type": "VersionManifest",
               "artifact": {
-                "size": 13696,
-                "MD5": "a948c783ec1f5e765e2147cf3bd68cac",
-                "url": "https://raw.githubusercontent.com/TheoPierne/theopierne.github.io/main/launcher/repo/versions/1.18.2-forge-40.0.36/1.18.2-forge-40.0.36.json"
+                "size": 13689,
+                "MD5": "6cdedae5249393adcb872b8419627b7e",
+                "url": "https://raw.githubusercontent.com/TheoPierne/theopierne.github.io/main/launcher/repo/versions/1.18.2-forge-40.1.0/1.18.2-forge-40.1.0.json"
               }
             },
             {
-              "id": "net.minecraftforge:javafmllanguage:1.18.2-40.0.36",
+              "id": "net.minecraftforge:javafmllanguage:1.18.2-40.1.0",
               "name": "Minecraft Forge (javafmllanguage)",
               "type": "Library",
               "artifact": {
-                "size": 16295,
-                "MD5": "9c0e3662c66e4d703817c6e363fde717",
-                "url": "https://raw.githubusercontent.com/TheoPierne/theopierne.github.io/main/launcher/repo/lib/net/minecraftforge/javafmllanguage/1.18.2-40.0.36/javafmllanguage-1.18.2-40.0.36.jar"
+                "size": 16290,
+                "MD5": "233b3bb59158f6bc1a019ed2a47c31cb",
+                "url": "https://raw.githubusercontent.com/TheoPierne/theopierne.github.io/main/launcher/repo/lib/net/minecraftforge/javafmllanguage/1.18.2-40.1.0/javafmllanguage-1.18.2-40.1.0.jar"
               },
               "subModules": []
             },
             {
-              "id": "net.minecraftforge:mclanguage:1.18.2-40.0.36",
+              "id": "net.minecraftforge:mclanguage:1.18.2-40.1.0",
               "name": "Minecraft Forge (mclanguage)",
               "type": "Library",
               "artifact": {
-                "size": 4987,
-                "MD5": "51049a78f3f01949b431bf5c6a67c2b4",
-                "url": "https://raw.githubusercontent.com/TheoPierne/theopierne.github.io/main/launcher/repo/lib/net/minecraftforge/mclanguage/1.18.2-40.0.36/mclanguage-1.18.2-40.0.36.jar"
+                "size": 4982,
+                "MD5": "fb2dc5eeed02cdfe6798e1c1fdc8d955",
+                "url": "https://raw.githubusercontent.com/TheoPierne/theopierne.github.io/main/launcher/repo/lib/net/minecraftforge/mclanguage/1.18.2-40.1.0/mclanguage-1.18.2-40.1.0.jar"
               },
               "subModules": []
             },
             {
-              "id": "net.minecraftforge:forge:1.18.2-40.0.36:universal",
+              "id": "net.minecraftforge:forge:1.18.2-40.1.0:universal",
               "name": "Minecraft Forge (universal jar)",
               "type": "Library",
               "artifact": {
-                "size": 2704222,
-                "MD5": "243d6b5f1ff69181ac5f1ef6affa9a29",
-                "url": "https://raw.githubusercontent.com/TheoPierne/theopierne.github.io/main/launcher/repo/lib/net/minecraftforge/forge/1.18.2-40.0.36/forge-1.18.2-40.0.36-universal.jar"
+                "size": 2419381,
+                "MD5": "7b68116796c4f539cb21b12f147df7a4",
+                "url": "https://raw.githubusercontent.com/TheoPierne/theopierne.github.io/main/launcher/repo/lib/net/minecraftforge/forge/1.18.2-40.1.0/forge-1.18.2-40.1.0-universal.jar"
               },
               "subModules": []
             },
             {
-              "id": "net.minecraftforge:forge:1.18.2-40.0.36:client",
+              "id": "net.minecraftforge:forge:1.18.2-40.1.0:client",
               "name": "Minecraft Forge (client jar)",
               "type": "Library",
               "artifact": {
-                "size": 5134101,
-                "MD5": "a308a1dce28d52250f44ea6002e0a411",
-                "url": "https://raw.githubusercontent.com/TheoPierne/theopierne.github.io/main/launcher/repo/lib/net/minecraftforge/forge/1.18.2-40.0.36/forge-1.18.2-40.0.36-client.jar"
+                "size": 5146032,
+                "MD5": "23b70ddf4685261067a50290de447e70",
+                "url": "https://raw.githubusercontent.com/TheoPierne/theopierne.github.io/main/launcher/repo/lib/net/minecraftforge/forge/1.18.2-40.1.0/forge-1.18.2-40.1.0-client.jar"
               },
               "subModules": []
             },
             {
-              "id": "net.minecraft:client:1.18.2-20220228.144236:srg",
+              "id": "net.minecraft:client:1.18.2-20220404.173914:srg",
               "name": "Minecraft Forge (client srg)",
               "type": "Library",
               "artifact": {
                 "size": 16166247,
                 "MD5": "a0ce7261b4f77fd1319b05b95591bc68",
-                "url": "https://raw.githubusercontent.com/TheoPierne/theopierne.github.io/main/launcher/repo/lib/net/minecraft/client/1.18.2-20220228.144236/client-1.18.2-20220228.144236-srg.jar"
+                "url": "https://raw.githubusercontent.com/TheoPierne/theopierne.github.io/main/launcher/repo/lib/net/minecraft/client/1.18.2-20220404.173914/client-1.18.2-20220404.173914-srg.jar"
               },
               "subModules": []
             },
             {
-              "id": "net.minecraft:client:1.18.2-20220228.144236:slim",
+              "id": "net.minecraft:client:1.18.2-20220404.173914:slim",
               "name": "Minecraft Forge (client slim)",
               "type": "Library",
               "artifact": {
                 "size": 10909711,
                 "MD5": "62184203a1e66c6c72b415b7d6e64c0d",
-                "url": "https://raw.githubusercontent.com/TheoPierne/theopierne.github.io/main/launcher/repo/lib/net/minecraft/client/1.18.2-20220228.144236/client-1.18.2-20220228.144236-slim.jar"
+                "url": "https://raw.githubusercontent.com/TheoPierne/theopierne.github.io/main/launcher/repo/lib/net/minecraft/client/1.18.2-20220404.173914/client-1.18.2-20220404.173914-slim.jar"
               },
               "subModules": []
             },
             {
-              "id": "net.minecraft:client:1.18.2-20220228.144236:extra",
+              "id": "net.minecraft:client:1.18.2-20220404.173914:extra",
               "name": "Minecraft Forge (client extra)",
               "type": "Library",
               "artifact": {
                 "size": 9349972,
                 "MD5": "5de62b239289ed8e596b386766b87b41",
-                "url": "https://raw.githubusercontent.com/TheoPierne/theopierne.github.io/main/launcher/repo/lib/net/minecraft/client/1.18.2-20220228.144236/client-1.18.2-20220228.144236-extra.jar"
+                "url": "https://raw.githubusercontent.com/TheoPierne/theopierne.github.io/main/launcher/repo/lib/net/minecraft/client/1.18.2-20220404.173914/client-1.18.2-20220404.173914-extra.jar"
               },
               "subModules": []
             },
@@ -351,16 +351,30 @@
               }
             },
             {
-              "id": "net.minecraftforge:fmlloader:1.18.2-40.0.36",
+              "id": "net.minecraftforge:fmlloader:1.18.2-40.1.0",
               "name": "Minecraft Forge (fmlloader)",
               "type": "Library",
               "artifact": {
-                "size": 238828,
-                "MD5": "4a322aad2c0c0814ee5e80d6631ac2e6",
-                "url": "https://raw.githubusercontent.com/TheoPierne/theopierne.github.io/main/launcher/repo/lib/net/minecraftforge/fmlloader/1.18.2-40.0.36/fmlloader-1.18.2-40.0.36.jar"
+                "size": 238835,
+                "MD5": "ac9e809e91d2398e792fcfce33a2f88b",
+                "url": "https://raw.githubusercontent.com/TheoPierne/theopierne.github.io/main/launcher/repo/lib/net/minecraftforge/fmlloader/1.18.2-40.1.0/fmlloader-1.18.2-40.1.0.jar"
               }
             }
           ]
+        },
+        {
+          "id": "com.seibel:lod:1.6.2a@jar",
+          "name": "Distant Horizons",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2237463,
+            "url": "https://raw.githubusercontent.com/TheoPierne/theopierne.github.io/main/launcher/servers/Mythical-1.18.2/forgemods/optionaloff/DistantHorizons-1.6.2a-1.18.1.jar",
+            "MD5": "e6849e159686c42cc62f43cf4eeb4500"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
         },
         {
           "id": "de.maxhenkel:voicechat:1.18.2-2.2.32@jar",
