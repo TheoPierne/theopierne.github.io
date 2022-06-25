@@ -458,17 +458,6 @@
               "subModules": []
             },
             {
-              "id": "net.minecraftforge:fmlloader:1.19-41.0.45",
-              "name": "Minecraft Forge (fmlloader)",
-              "type": "Library",
-              "artifact": {
-                "size": 255163,
-                "MD5": "2dde10925e62c2fe01aa23e7f718d867",
-                "url": "https://raw.githubusercontent.com/TheoPierne/theopierne.github.io/main/launcher/repo/lib/net/minecraftforge/fmlloader/1.19-41.0.45/fmlloader-1.19-41.0.45.jar"
-              },
-              "subModules": []
-            },
-            {
               "id": "net.minecraftforge:lowcodelanguage:1.19-41.0.45",
               "name": "Minecraft Forge (lowcodelanguage)",
               "type": "Library",
