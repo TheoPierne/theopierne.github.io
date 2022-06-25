@@ -416,13 +416,13 @@
       "autoconnect": false,
       "modules": [
         {
-          "id": "net.minecraftforge:lowcodelanguage:1.19-41.0.45",
-          "name": "Minecraft Forge (lowcodelanguage)",
+          "id": "net.minecraftforge:fmlcore:1.19-41.0.45",
+          "name": "Minecraft Forge (fmlcore)",
           "type": "ForgeHosted",
           "artifact": {
-            "size": 7380,
-            "MD5": "b443ef53e40fef9e54970a4b92d020a1",
-            "url": "https://raw.githubusercontent.com/TheoPierne/theopierne.github.io/main/launcher/repo/lib/net/minecraftforge/lowcodelanguage/1.19-41.0.45/lowcodelanguage-1.19-41.0.45.jar"
+            "size": 111912,
+            "MD5": "c895b5009c4b0bdfbb8cf7c60d1267da",
+            "url": "https://raw.githubusercontent.com/TheoPierne/theopierne.github.io/main/launcher/repo/lib/net/minecraftforge/fmlcore/1.19-41.0.45/fmlcore-1.19-41.0.45.jar"
           },
           "subModules": [
             {
@@ -434,17 +434,6 @@
                 "MD5": "668170f4797de7db4a8001c350904842",
                 "url": "https://raw.githubusercontent.com/TheoPierne/theopierne.github.io/main/launcher/repo/versions/1.19-forge-41.0.45/1.19-forge-41.0.45.json"
               }
-            },
-            {
-              "id": "net.minecraftforge:fmlcore:1.19-41.0.45",
-              "name": "Minecraft Forge (fmlcore)",
-              "type": "Library",
-              "artifact": {
-                "size": 111912,
-                "MD5": "c895b5009c4b0bdfbb8cf7c60d1267da",
-                "url": "https://raw.githubusercontent.com/TheoPierne/theopierne.github.io/main/launcher/repo/lib/net/minecraftforge/fmlcore/1.19-41.0.45/fmlcore-1.19-41.0.45.jar"
-              },
-              "subModules": []
             },
             {
               "id": "net.minecraftforge:javafmllanguage:1.19-41.0.45",
@@ -498,6 +487,17 @@
                 "size": 17078871,
                 "MD5": "0d40c58a574c1fc9cabbdf8f446e67e7",
                 "url": "https://raw.githubusercontent.com/TheoPierne/theopierne.github.io/main/launcher/repo/lib/net/minecraft/client/1.19-20220607.102129/client-1.19-20220607.102129-srg.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:lowcodelanguage:1.19-41.0.45",
+              "name": "Minecraft Forge (lowcodelanguage)",
+              "type": "Library",
+              "artifact": {
+                "size": 7380,
+                "MD5": "b443ef53e40fef9e54970a4b92d020a1",
+                "url": "https://raw.githubusercontent.com/TheoPierne/theopierne.github.io/main/launcher/repo/lib/net/minecraftforge/lowcodelanguage/1.19-41.0.45/lowcodelanguage-1.19-41.0.45.jar"
               },
               "subModules": []
             },
