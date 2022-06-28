@@ -458,17 +458,6 @@
               "subModules": []
             },
             {
-              "id": "net.minecraftforge:lowcodelanguage:1.19-41.0.45",
-              "name": "Minecraft Forge (lowcodelanguage)",
-              "type": "Library",
-              "artifact": {
-                "size": 7380,
-                "MD5": "b443ef53e40fef9e54970a4b92d020a1",
-                "url": "https://raw.githubusercontent.com/TheoPierne/theopierne.github.io/main/launcher/repo/lib/net/minecraftforge/lowcodelanguage/1.19-41.0.45/lowcodelanguage-1.19-41.0.45.jar"
-              },
-              "subModules": []
-            },
-            {
               "id": "net.minecraftforge:forge:1.19-41.0.45:universal",
               "name": "Minecraft Forge (universal jar)",
               "type": "Library",
