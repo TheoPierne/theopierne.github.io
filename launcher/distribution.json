@@ -790,13 +790,13 @@
           }
         },
         {
-          "id": "de.maxhenkel:voicechat:1.19-2.2.45@jar",
+          "id": "de.maxhenkel:voicechat:1.19-2.2.46@jar",
           "name": "Simple Voice Chat",
           "type": "ForgeMod",
           "artifact": {
-            "size": 5882937,
-            "url": "https://raw.githubusercontent.com/TheoPierne/theopierne.github.io/main/launcher/servers/Mythical-1.19/forgemods/required/voicechat-forge-1.19-2.2.45.jar",
-            "MD5": "69eddeecbe4b6d71ea6d53055be6faf7"
+            "size": 5882976,
+            "url": "https://raw.githubusercontent.com/TheoPierne/theopierne.github.io/main/launcher/servers/Mythical-1.19/forgemods/required/voicechat-forge-1.19-2.2.46.jar",
+            "MD5": "241eb79a3f1ed6fc2f448853f7e47b2a"
           }
         },
         {
