@@ -20,7 +20,7 @@
         "largeImageText": "Mythical S3 (1.18.2)",
         "largeImageKey": "server"
       },
-      "mainServer": true,
+      "mainServer": false,
       "autoconnect": false,
       "modules": [
         {
@@ -402,7 +402,7 @@
     {
       "id": "Mythical-1.19",
       "name": "Mythical (Minecraft 1.19)",
-      "description": "Mythical Running Minecraft 1.19 (Forge v41.0.45)",
+      "description": "Mythical Running Minecraft 1.19 (Forge v41.0.61)",
       "icon": "https://raw.githubusercontent.com/TheoPierne/theopierne.github.io/main/launcher/servers/Mythical-1.19/icon.png",
       "version": "1.0.0",
       "address": "waiit.aternos.me:37885",
@@ -416,77 +416,77 @@
       "autoconnect": false,
       "modules": [
         {
-          "id": "net.minecraftforge:fmlcore:1.19-41.0.45",
+          "id": "net.minecraftforge:fmlcore:1.19-41.0.61",
           "name": "Minecraft Forge (fmlcore)",
           "type": "ForgeHosted",
           "artifact": {
-            "size": 111912,
-            "MD5": "c895b5009c4b0bdfbb8cf7c60d1267da",
-            "url": "https://raw.githubusercontent.com/TheoPierne/theopierne.github.io/main/launcher/repo/lib/net/minecraftforge/fmlcore/1.19-41.0.45/fmlcore-1.19-41.0.45.jar"
+            "size": 111913,
+            "MD5": "dfbaecc6670f44200e8134fc4fde50d7",
+            "url": "https://raw.githubusercontent.com/TheoPierne/theopierne.github.io/main/launcher/repo/lib/net/minecraftforge/fmlcore/1.19-41.0.61/fmlcore-1.19-41.0.61.jar"
           },
           "subModules": [
             {
-              "id": "1.19-41.0.45",
+              "id": "1.19-41.0.61",
               "name": "Minecraft Forge (version.json)",
               "type": "VersionManifest",
               "artifact": {
                 "size": 14163,
-                "MD5": "668170f4797de7db4a8001c350904842",
-                "url": "https://raw.githubusercontent.com/TheoPierne/theopierne.github.io/main/launcher/repo/versions/1.19-forge-41.0.45/1.19-forge-41.0.45.json"
+                "MD5": "d48fbea0f8d9ec70c324dc39df031a9b",
+                "url": "https://raw.githubusercontent.com/TheoPierne/theopierne.github.io/main/launcher/repo/versions/1.19-forge-41.0.61/1.19-forge-41.0.61.json"
               }
             },
             {
-              "id": "net.minecraftforge:javafmllanguage:1.19-41.0.45",
+              "id": "net.minecraftforge:javafmllanguage:1.19-41.0.61",
               "name": "Minecraft Forge (javafmllanguage)",
               "type": "Library",
               "artifact": {
-                "size": 16325,
-                "MD5": "2ce488c8fc763b388e4fff592bd4772d",
-                "url": "https://raw.githubusercontent.com/TheoPierne/theopierne.github.io/main/launcher/repo/lib/net/minecraftforge/javafmllanguage/1.19-41.0.45/javafmllanguage-1.19-41.0.45.jar"
+                "size": 16326,
+                "MD5": "a478ae42c64a2d244c45ab908d5e6861",
+                "url": "https://raw.githubusercontent.com/TheoPierne/theopierne.github.io/main/launcher/repo/lib/net/minecraftforge/javafmllanguage/1.19-41.0.61/javafmllanguage-1.19-41.0.61.jar"
               },
               "subModules": []
             },
             {
-              "id": "net.minecraftforge:mclanguage:1.19-41.0.45",
+              "id": "net.minecraftforge:mclanguage:1.19-41.0.61",
               "name": "Minecraft Forge (mclanguage)",
               "type": "Library",
               "artifact": {
-                "size": 4985,
-                "MD5": "bad875df6643c401596c798f7d8dfe07",
-                "url": "https://raw.githubusercontent.com/TheoPierne/theopierne.github.io/main/launcher/repo/lib/net/minecraftforge/mclanguage/1.19-41.0.45/mclanguage-1.19-41.0.45.jar"
+                "size": 4986,
+                "MD5": "068c526e8267c0ff86e926a368be66d7",
+                "url": "https://raw.githubusercontent.com/TheoPierne/theopierne.github.io/main/launcher/repo/lib/net/minecraftforge/mclanguage/1.19-41.0.61/mclanguage-1.19-41.0.61.jar"
               },
               "subModules": []
             },
             {
-              "id": "net.minecraftforge:lowcodelanguage:1.19-41.0.45",
+              "id": "net.minecraftforge:lowcodelanguage:1.19-41.0.61",
               "name": "Minecraft Forge (lowcodelanguage)",
               "type": "Library",
               "artifact": {
-                "size": 7380,
-                "MD5": "b443ef53e40fef9e54970a4b92d020a1",
-                "url": "https://raw.githubusercontent.com/TheoPierne/theopierne.github.io/main/launcher/repo/lib/net/minecraftforge/lowcodelanguage/1.19-41.0.45/lowcodelanguage-1.19-41.0.45.jar"
+                "size": 7381,
+                "MD5": "055ab9a1dcc334d1388d30e2992c29f0",
+                "url": "https://raw.githubusercontent.com/TheoPierne/theopierne.github.io/main/launcher/repo/lib/net/minecraftforge/lowcodelanguage/1.19-41.0.61/lowcodelanguage-1.19-41.0.61.jar"
               },
               "subModules": []
             },
             {
-              "id": "net.minecraftforge:forge:1.19-41.0.45:universal",
+              "id": "net.minecraftforge:forge:1.19-41.0.61:universal",
               "name": "Minecraft Forge (universal jar)",
               "type": "Library",
               "artifact": {
-                "size": 2477374,
-                "MD5": "93bea82058e6533e29665108524d7cd6",
-                "url": "https://raw.githubusercontent.com/TheoPierne/theopierne.github.io/main/launcher/repo/lib/net/minecraftforge/forge/1.19-41.0.45/forge-1.19-41.0.45-universal.jar"
+                "size": 2481598,
+                "MD5": "836cfadc7c6e6a036cf2af59251dc36a",
+                "url": "https://raw.githubusercontent.com/TheoPierne/theopierne.github.io/main/launcher/repo/lib/net/minecraftforge/forge/1.19-41.0.61/forge-1.19-41.0.61-universal.jar"
               },
               "subModules": []
             },
             {
-              "id": "net.minecraftforge:forge:1.19-41.0.45:client",
+              "id": "net.minecraftforge:forge:1.19-41.0.61:client",
               "name": "Minecraft Forge (client jar)",
               "type": "Library",
               "artifact": {
-                "size": 5086273,
-                "MD5": "a8b572f28c89b280c87e0100566675bc",
-                "url": "https://raw.githubusercontent.com/TheoPierne/theopierne.github.io/main/launcher/repo/lib/net/minecraftforge/forge/1.19-41.0.45/forge-1.19-41.0.45-client.jar"
+                "size": 5099359,
+                "MD5": "3f9c580b437c4f71a634617ec9a2f5b4",
+                "url": "https://raw.githubusercontent.com/TheoPierne/theopierne.github.io/main/launcher/repo/lib/net/minecraftforge/forge/1.19-41.0.61/forge-1.19-41.0.61-client.jar"
               },
               "subModules": []
             },
@@ -764,13 +764,13 @@
               }
             },
             {
-              "id": "net.minecraftforge:fmlloader:1.19-41.0.45",
+              "id": "net.minecraftforge:fmlloader:1.19-41.0.61",
               "name": "Minecraft Forge (fmlloader)",
               "type": "Library",
               "artifact": {
-                "size": 255163,
-                "MD5": "2dde10925e62c2fe01aa23e7f718d867",
-                "url": "https://raw.githubusercontent.com/TheoPierne/theopierne.github.io/main/launcher/repo/lib/net/minecraftforge/fmlloader/1.19-41.0.45/fmlloader-1.19-41.0.45.jar"
+                "size": 255164,
+                "MD5": "6ac4446970f46432fe1824213eb4be4b",
+                "url": "https://raw.githubusercontent.com/TheoPierne/theopierne.github.io/main/launcher/repo/lib/net/minecraftforge/fmlloader/1.19-41.0.61/fmlloader-1.19-41.0.61.jar"
               }
             }
           ]
@@ -781,12 +781,11 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 116567,
-            "url": "https://raw.githubusercontent.com/TheoPierne/theopierne.github.io/main/launcher/servers/Mythical-1.19/forgemods/optionaloff/ferritecore-5.0.0-forge.jar",
+            "url": "https://raw.githubusercontent.com/TheoPierne/theopierne.github.io/main/launcher/servers/Mythical-1.19/forgemods/optionalon/ferritecore-5.0.0-forge.jar",
             "MD5": "29ea2da2b2569a79b459bd9724fe5588"
           },
           "required": {
-            "value": false,
-            "def": false
+            "value": false
           }
         },
         {
