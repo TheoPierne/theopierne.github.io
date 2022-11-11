@@ -413,7 +413,7 @@
         "largeImageKey": "server"
       },
       "mainServer": true,
-      "autoconnect": false,
+      "autoconnect": true,
       "modules": [
         {
           "id": "net.minecraftforge:fmlcore:1.19-41.0.61",
