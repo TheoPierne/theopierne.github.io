@@ -1,0 +1,20 @@
+{
+  "$schema": "file:///C:/Users/theop/Desktop/Mythical/LauncherData/launcher/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "Mythical (Minecraft 1.19.4)",
+    "description": "Mythical Running Minecraft 1.19.4 (Forge v45.0.40)",
+    "address": "waiit.aternos.me:37885",
+    "discord": {
+      "shortId": "Mythical S3 (1.19.4)",
+      "largeImageText": "Mythical S3 (1.19.4)",
+      "largeImageKey": "server"
+    },
+    "mainServer": true,
+    "autoconnect": true
+  },
+  "forge": {
+    "version": "45.0.40"
+  },
+  "untrackedFiles": []
+}
