@@ -1,0 +1,21 @@
+{
+  "$schema": "file:///C:/Users/theop/Desktop/Mythical/LauncherData/zuki-launcher/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "ZukiPalace (Minecraft 1.21.1)",
+    "description": "ZukiPalace Running Minecraft 1.21.1 (Fabric v0.16.7)",
+    "icon": "",
+    "address": "localhost:25565",
+    "discord": {
+      "shortId": "ZukiPalace 🎃",
+      "largeImageText": "ZukiPalace 🎃 (1.21.1)",
+      "largeImageKey": "server"
+    },
+    "mainServer": true,
+    "autoconnect": true
+  },
+  "fabric": {
+    "version": "0.16.7"
+  },
+  "untrackedFiles": []
+}

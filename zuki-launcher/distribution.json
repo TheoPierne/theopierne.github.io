@@ -1,0 +1,254 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "ZukiPalace-1.21.1",
+      "name": "ZukiPalace (Minecraft 1.21.1)",
+      "description": "ZukiPalace Running Minecraft 1.21.1 (Fabric v0.16.7)",
+      "icon": null,
+      "version": "1.0.0",
+      "address": "localhost:25565",
+      "minecraftVersion": "1.21.1",
+      "discord": {
+        "shortId": "ZukiPalace 🎃",
+        "largeImageText": "ZukiPalace 🎃 (1.21.1)",
+        "largeImageKey": "server"
+      },
+      "mainServer": true,
+      "autoconnect": true,
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.16.7",
+          "name": "Fabric (fabric-loader)",
+          "type": "Fabric",
+          "artifact": {
+            "size": 1387452,
+            "MD5": "67fdac9560fdae4c5e89fa62394f5802",
+            "url": "https://raw.githubusercontent.com/TheoPierne/theopierne.github.io/main/zuki-launcher/repo/lib/net/fabricmc/fabric-loader/0.16.7/fabric-loader-0.16.7.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.21.1-fabric-0.16.7",
+              "name": "Fabric (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 2857,
+                "MD5": "b8b333e60c3a392aaa1ce484c6bfffaf",
+                "url": "https://raw.githubusercontent.com/TheoPierne/theopierne.github.io/main/zuki-launcher/repo/versions/1.21.1-fabric-0.16.7/1.21.1-fabric-0.16.7.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.7.1",
+              "name": "Fabric (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 126093,
+                "MD5": "e2cdd32d198ad31427d298eee9d39d8d",
+                "url": "https://raw.githubusercontent.com/TheoPierne/theopierne.github.io/main/zuki-launcher/repo/lib/org/ow2/asm/asm/9.7.1/asm-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.7.1",
+              "name": "Fabric (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 35126,
+                "MD5": "4cd9e7178dfb85371bba3077e40cd514",
+                "url": "https://raw.githubusercontent.com/TheoPierne/theopierne.github.io/main/zuki-launcher/repo/lib/org/ow2/asm/asm-analysis/9.7.1/asm-analysis-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.7.1",
+              "name": "Fabric (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 73459,
+                "MD5": "8344aea3c8b7d707e9d35a62710e77c9",
+                "url": "https://raw.githubusercontent.com/TheoPierne/theopierne.github.io/main/zuki-launcher/repo/lib/org/ow2/asm/asm-commons/9.7.1/asm-commons-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.7.1",
+              "name": "Fabric (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51939,
+                "MD5": "e85029f613b6469989cc7cf53fe06b74",
+                "url": "https://raw.githubusercontent.com/TheoPierne/theopierne.github.io/main/zuki-launcher/repo/lib/org/ow2/asm/asm-tree/9.7.1/asm-tree-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.7.1",
+              "name": "Fabric (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 94519,
+                "MD5": "36d373a9cd6cad9b35db9f984c6b4bbb",
+                "url": "https://raw.githubusercontent.com/TheoPierne/theopierne.github.io/main/zuki-launcher/repo/lib/org/ow2/asm/asm-util/9.7.1/asm-util-9.7.1.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:sponge-mixin:0.15.3+mixin.0.8.7",
+              "name": "Fabric (sponge-mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1494835,
+                "MD5": "a33725dd52de94c33514b6867c8d0b4b",
+                "url": "https://raw.githubusercontent.com/TheoPierne/theopierne.github.io/main/zuki-launcher/repo/lib/net/fabricmc/sponge-mixin/0.15.3+mixin.0.8.7/sponge-mixin-0.15.3+mixin.0.8.7.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:intermediary:1.21.1",
+              "name": "Fabric (intermediary)",
+              "type": "Library",
+              "artifact": {
+                "size": 657725,
+                "MD5": "850be48a3406b9efdf8e64b1c2db97f8",
+                "url": "https://raw.githubusercontent.com/TheoPierne/theopierne.github.io/main/zuki-launcher/repo/lib/net/fabricmc/intermediary/1.21.1/intermediary-1.21.1.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "me.pepperbell:continuity:3.0.0-beta.5+1.21@jar",
+          "name": "Continuity",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1007136,
+            "url": "https://raw.githubusercontent.com/TheoPierne/theopierne.github.io/main/zuki-launcher/servers/ZukiPalace-1.21.1/fabricmods/required/continuity-3.0.0-beta.5+1.21.jar",
+            "MD5": "cd7dbc5efe7f19078ef7609a323e347a"
+          }
+        },
+        {
+          "id": "dev.tr7zw:entityculling:1.7.0@jar",
+          "name": "EntityCulling",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 65591,
+            "url": "https://raw.githubusercontent.com/TheoPierne/theopierne.github.io/main/zuki-launcher/servers/ZukiPalace-1.21.1/fabricmods/required/entityculling-fabric-1.7.0-mc1.21.jar",
+            "MD5": "3521292b60a550e76c63147e40bd1f74"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-api:0.105.0+1.21.1@jar",
+          "name": "Fabric API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2324549,
+            "url": "https://raw.githubusercontent.com/TheoPierne/theopierne.github.io/main/zuki-launcher/servers/ZukiPalace-1.21.1/fabricmods/required/fabric-api-0.105.0+1.21.1.jar",
+            "MD5": "e9ab25c1dcdae5eacbb3b43c795b5c4f"
+          }
+        },
+        {
+          "id": "io.grayray75.mods:fpsdisplay:4.2.1+1.21.1@jar",
+          "name": "FPS-Display",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 146703,
+            "url": "https://raw.githubusercontent.com/TheoPierne/theopierne.github.io/main/zuki-launcher/servers/ZukiPalace-1.21.1/fabricmods/optionalon/fpsdisplay-4.2.1+1.21.1.jar",
+            "MD5": "a97cf185802d96b3b44b571136cb1539"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "link.infra:indium:1.0.35+mc1.21@jar",
+          "name": "Indium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 105000,
+            "url": "https://raw.githubusercontent.com/TheoPierne/theopierne.github.io/main/zuki-launcher/servers/ZukiPalace-1.21.1/fabricmods/required/indium-1.0.35+mc1.21.jar",
+            "MD5": "db92c620cb72a41403b928a0b45955d0"
+          }
+        },
+        {
+          "id": "generated.fabricmod:iris:1.8.0-beta.4+mc1.21.1@jar",
+          "name": "Iris",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2659716,
+            "url": "https://raw.githubusercontent.com/TheoPierne/theopierne.github.io/main/zuki-launcher/servers/ZukiPalace-1.21.1/fabricmods/required/iris-fabric-1.8.0-beta.4+mc1.21.1.jar",
+            "MD5": "030075230b3656cf86d0aabba17d74c1"
+          }
+        },
+        {
+          "id": "fi.dy.masa:litematica:0.19.50@jar",
+          "name": "Litematica",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1044263,
+            "url": "https://raw.githubusercontent.com/TheoPierne/theopierne.github.io/main/zuki-launcher/servers/ZukiPalace-1.21.1/fabricmods/optionaloff/litematica-fabric-1.21.1-0.19.50.jar",
+            "MD5": "1276e71906f58881b2ef0a9d45a161ea"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "me.jellysquid.mods:lithium:0.13.1@jar",
+          "name": "Lithium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 752804,
+            "url": "https://raw.githubusercontent.com/TheoPierne/theopierne.github.io/main/zuki-launcher/servers/ZukiPalace-1.21.1/fabricmods/required/lithium-fabric-mc1.21.1-0.13.1.jar",
+            "MD5": "b8466382a400ee71ee8bf54b747015cb"
+          }
+        },
+        {
+          "id": "com.logicalgeekboy:logical_zoom:0.0.26@jar",
+          "name": "Logical Zoom",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 118999,
+            "url": "https://raw.githubusercontent.com/TheoPierne/theopierne.github.io/main/zuki-launcher/servers/ZukiPalace-1.21.1/fabricmods/optionalon/logical_zoom-0.0.26.jar",
+            "MD5": "c144dba61d47be16f2a2050b455f9e5d"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "net.caffeinemc.mods:sodium:0.6.0-beta.2+mc1.21.1@jar",
+          "name": "Sodium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1266516,
+            "url": "https://raw.githubusercontent.com/TheoPierne/theopierne.github.io/main/zuki-launcher/servers/ZukiPalace-1.21.1/fabricmods/required/sodium-fabric-0.6.0-beta.2+mc1.21.1.jar",
+            "MD5": "b08f626a6cee1fc3b3f42760c8046e5f"
+          }
+        },
+        {
+          "id": "toni.sodiumdynamiclights:sodiumdynamiclights:1.0.9@jar",
+          "name": "Sodium Dynamic Lights",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 897342,
+            "url": "https://raw.githubusercontent.com/TheoPierne/theopierne.github.io/main/zuki-launcher/servers/ZukiPalace-1.21.1/fabricmods/optionalon/sodiumdynamiclights-fabric-1.0.9-1.21.1.jar",
+            "MD5": "8d93d173893271912ac6b08a270c4196"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "de.maxhenkel:voicechat:1.21.1-2.5.24@jar",
+          "name": "Simple Voice Chat",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 6584586,
+            "url": "https://raw.githubusercontent.com/TheoPierne/theopierne.github.io/main/zuki-launcher/servers/ZukiPalace-1.21.1/fabricmods/required/voicechat-fabric-1.21.1-2.5.24.jar",
+            "MD5": "c25302ee8fdec386c256eca32bda653c"
+          }
+        }
+      ]
+    }
+  ]
+}
